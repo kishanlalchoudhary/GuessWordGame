@@ -16,3 +16,45 @@ A console-based word-guessing game built with Ruby. The game challenges players 
 2. Run the game script to start the game.
 3. Follow the prompts to guess letters for the hidden word.
 4. Continue guessing until you either guess the word or run out of attempts.
+
+## Getting Started 🛠️
+
+### Installation
+
+1. Clone the repository:
+  ```bash
+    git clone https://github.com/yourusername/GuessWordGame.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+    cd GuessWordGame
+  ```
+3. Install dependencies:
+  ```bash
+    bundle install
+  ```
+
+### Running the Game
+
+To play the game, run the following command:
+  ```bash
+    ruby game.rb
+  ```
+
+### Running Tests
+
+To ensure all tests pass, execute:
+  ```bash
+    rspec
+  ```
+
+## Test-Driven Development 🧪
+
+This project follows TDD principles with tests written in RSpec to validate game functionality. Key tests include:
+
+- Validating word selection and hidden word display.
+- Ensuring correct handling of guesses (correct and incorrect).
+- Managing game over conditions (win or lose).
+- Testing edge cases such as invalid input.
+
+Thank you for checking out **GuessWordGame**! Have fun guessing! 🎉
