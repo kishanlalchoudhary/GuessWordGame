@@ -44,9 +44,23 @@ To play the game, run the following command:
 ### Running Tests
 
 To ensure all tests pass, execute:
-  ```bash
+  ```
     rspec
   ```
+
+## Project Structure 📁
+
+```
+GuessWordGame/
+├── lib/
+│   ├── game.rb         # Contains the main class and game logic
+├── spec/
+│   ├── game_spec.rb    # RSpec tests to validate game logic and functionality
+│   ├── spec_helper.rb  # RSpec configuration and setup
+├── start.rb            # Entry point to start the game
+├── Gemfile             # Lists project dependencies and Ruby versions
+├── README.md           # Project documentation and setup instructions
+```
 
 ## Test-Driven Development 🧪
 
