@@ -1,4 +1,4 @@
-require "./lib/guess_word_game.rb"
+require "./lib/game.rb"
 
 WORDS = ["Apple", "Banana", "Mango", "Orange", "Strawberry", "Grape"].freeze
 
