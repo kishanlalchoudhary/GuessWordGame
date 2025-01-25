@@ -1,4 +1,4 @@
-require_relative "../lib/guess_word_game.rb"
+require_relative "../lib/game.rb"
 
 describe GuessWordGame do
   context "game setup" do
