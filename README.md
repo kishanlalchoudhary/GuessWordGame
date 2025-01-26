@@ -1,4 +1,4 @@
-# GuessWordGame 🎮
+# Guess Word Game 🎮
 
 A console-based word-guessing game built with Ruby. The game challenges players to guess a hidden word within a limited number of attempts while providing real-time feedback on their progress. Developed using the **Test-Driven Development (TDD)** methodology with RSpec for rigorous testing.
 
